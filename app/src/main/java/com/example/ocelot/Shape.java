@@ -3,6 +3,7 @@ package com.example.ocelot;
 public abstract class Shape {
     protected int x;
     protected int y;
+    String color = "Gray";
 
     public Shape(int x, int y) {
         this.x = x;
